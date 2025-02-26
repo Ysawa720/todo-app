@@ -2,9 +2,9 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './Style.css';
-import { InputTodo } from './components/InputTodo';
-import { IncompleteTodo } from './components/IncompleteTodo';
-import { CompleteTodo } from './components/CompleteTodo';
+import { InputTodo } from '../components/InputTodo';
+import { IncompleteTodo } from '../components/IncompleteTodo';
+import { CompleteTodo } from '../components/CompleteTodo';
 
 export const Todo = () => {
   const [todoText, setTodoText] = useState('');
